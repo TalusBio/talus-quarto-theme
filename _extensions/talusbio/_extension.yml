@@ -1,0 +1,14 @@
+title: Talus Bio Revealjs theme
+author: William E. Fondrie
+version: 1.0.0
+quarto-required: ">=1.2.0"
+contributes:
+  formats:
+    revealjs:
+       theme: [default, custom.scss]
+       template-partials:
+         - title-slide.html
+       title-slide-attributes:
+         data-background-color: "#001425"
+       format-resources:
+         - logo.svg

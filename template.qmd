@@ -1,0 +1,28 @@
+---
+title: "A Test Presentation"
+subtitle: "My subtitle"
+author: "Imma Marmot"
+date: "2023-04-11"
+institute: "Talus Bio"
+event: "my event"
+format: talusbio-revealjs
+---
+
+## My first slide {background-color="#001425"}
+
+This one has a dark background
+
+- has bullets
+- that are cool
+
+## Here's some code 
+```{.python code-line-numbers="2-4"}
+import numpy as np
+
+rng = np.random.default_rng()
+x = rng.random(4)
+
+print(x)
+```
+
+

@@ -1,0 +1,100 @@
+/*-- scss:defaults --*/
+
+// Talus Main Colors
+$lightblue: #308AAD;
+$lightgreen: #96D8D8;
+$navyblue: #001425;
+$red: #C8102E;
+
+// Talus Secondary Colors
+$darkgrey: #8FA2A1;
+$lightgrey: #EDEDED;
+$brightgreen: #B2EE79;
+$white: #FFFFFF;
+
+// fonts
+$font-family-sans-serif: "Montserrat" !default;
+$font-family-monospace: "Fira Code", monospace !default;
+
+// colors
+$body-bg: #EDEDED !default;
+$body-color: $navyblue !default;
+$link-color: $lightblue !default;
+$selection-color: $navyblue !default;
+$border-color: $lightblue !default;
+$code-block-border-color: $lightblue !default;
+$border-width: 3px !default;
+//$code-block-bg: $white !default;
+
+// headings
+$presentation-heading-font: "IBM Plex Sans" !default;
+$presentation-heading-color: #308AAD !default;
+
+// Alignment
+$presentation-title-slide-text-align: "left" !default;
+$presentation-slide-text-align: "left" !default;
+
+/*-- scss:rules --*/
+.reveal .quarto-title-block .quarto-title-authors .quarto-title-author {
+  padding-left: 0;
+  padding-right: 0;
+  text-align: left;
+}
+
+.reveal .quarto-title-block .quarto-title-authors {
+  display: flex;
+  justify-content: left;
+}
+
+.reveal div.title {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  height: 90%;
+}
+
+.reveal img.logo {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.reveal div.logo {
+  position: relative;
+  height: auto;
+}
+
+.reveal p.subtitle{
+  font-size: $presentation-h2-font-size;
+  font-family: $presentation-heading-font;
+}
+
+.reveal p.date, .reveal p.institute, .reveal p.event {
+  font-size: .7em;
+  margin: 0 0;
+  color: $lightblue;
+}
+
+.reveal .slides {
+  text-align: left;
+}
+
+
+.reveal a {
+  line-height: 1.3em;
+}
+
+// Dark backgrounds:
+section.has-dark-background h1,
+section.has-dark-background h2,
+section.has-dark-background h3,
+section.has-dark-background h4,
+section.has-dark-background h5,
+section.has-dark-background h6 {
+  color: $lightgreen;
+}
+
+
+section.has-dark-background {
+  color: $white;
+}
