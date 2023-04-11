@@ -8,12 +8,16 @@ event: "my event"
 format: talusbio-revealjs
 ---
 
-## My first slide {background-color="#001425"}
-
-This one has a dark background
+## My first slide
 
 - has bullets
-- that are cool
+- that are cool^[this is a footnote]
+
+::: aside
+This is an aside
+:::
+
+
 
 ## Here's some code 
 ```{.python code-line-numbers="2-4"}
